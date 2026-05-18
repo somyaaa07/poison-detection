@@ -1,0 +1,981 @@
+AI-DSS Forensic Toxicology — Master Library | 15 Toxins × Timeline Phases | Parameters: Symptoms · Odour · Route · Timeline · Sample,,,,,,,,,,,,
+Sources: PMC 3555759/4961899 (AlP) · PMC 8296580 (India pesticide review) · IJFCM 2022 (OP/Narcotics) · O'Neal FSI 2000 · PubMed 23563473/26056768/NBK606092 (PPD) · NYCOCME Reinsch SOP · Austin J Forensic Sci 2018 · StatPearls · Springer Systematic Tox,,,,,,,,,,,,
+Toxin ID,Toxin / Substance,Category,Timeline Phase,"CNS Symptoms
+(at this phase)","CVS Symptoms
+(at this phase)","Respiratory Symptoms
+(at this phase)","GI Symptoms
+(at this phase)","Other / Systemic Symptoms
+(at this phase)","Odour Present
+(optional parameter)",Route of Exposure,"Sample Type
+(priority for this phase)",Source Reference
+T01,"Organophosphate Compounds
+(Chlorpyrifos, Monocrotophos, Phorate, Malathion)",Pesticide,"Phase 1 — Early (0–30 min)
+[Ingestion / Inhalation]","Anxiety; Restlessness;
+Headache; Miosis begins
+(pupils start constricting)","Mild bradycardia begins;
+Blood pressure normal/slightly low","Mild rhinorrhoea;
+Chest tightness begins","Nausea; Hypersalivation
+begins; Abdominal discomfort","Lacrimation; Diaphoresis
+(sweating); Urinary urgency","Garlic / kerosene odour
+(from formulation solvent —
+OPTIONAL; may not be present)","Ingestion (suicidal — most common India);
+Dermal/Inhalation (occupational)","Gastric lavage contents;
+Blood (RBC ChE baseline)","IJFCM 2022 OP study;
+PMC 3097564;
+PMC 9530162"
+T01,"Organophosphate Compounds
+(Chlorpyrifos, Monocrotophos, Phorate, Malathion)",Pesticide,Phase 2 — Acute (30 min–2 hrs),"MIOSIS (pinpoint pupils — hallmark);
+Confusion; Muscle fasciculations;
+Anxiety; Headache severe","Bradycardia (significant);
+Hypotension;
+QTc prolongation on ECG","Bronchospasm;
+Excessive bronchial secretions;
+Dyspnoea","Vomiting (profuse);
+Diarrhoea; Abdominal cramps;
+Hypersalivation (SLUDGE)","SLUDGE syndrome:
+Salivation, Lacrimation,
+Urination, Defecation,
+GI distress, Emesis;
+Muscle twitching","Garlic / kerosene odour
+(if ingested formulation;
+OPTIONAL)","Ingestion (suicidal — most common India);
+Dermal/Inhalation (occupational)","Blood (RBC AChE — depressed);
+Gastric lavage;
+Urine (alkyl phosphate metabolites)","IJFCM 2022 OP study;
+Medscape OP workup;
+PMC 1675999"
+T01,"Organophosphate Compounds
+(Chlorpyrifos, Monocrotophos, Phorate, Malathion)",Pesticide,Phase 3 — Established (2–12 hrs),"Seizures (generalised);
+Coma (progressive);
+Miosis persists;
+Muscle paralysis begins","Severe bradycardia or
+tachycardia (nicotinic);
+Arrhythmia;
+Hypotension worsening","Respiratory failure
+(bronchospasm + secretions
++ muscle paralysis);
+Cyanosis","Profuse diarrhoea;
+Uncontrolled defecation;
+Incontinence (urinary)","Generalised weakness;
+Flaccid paralysis;
+Bladder/bowel incontinence;
+Coma deepens","Garlic odour may persist
+in gastric contents
+(OPTIONAL)","Ingestion (suicidal);
+Dermal/Inhalation (occupational)","Blood (serial RBC AChE);
+Urine (GC-MS metabolites);
+Viscera if fatal","PMC 1675999;
+PMC 3097564;
+Neurological syndromes OP
+ResearchGate 2001"
+T01,"Organophosphate Compounds
+(Chlorpyrifos, Monocrotophos, Phorate, Malathion)",Pesticide,Phase 4 — Delayed/IMS (24–96 hrs post-acute),"Intermediate Syndrome (IMS):
+Proximal limb weakness;
+Cranial nerve palsies;
+Neck flexor weakness","Resolved if survived;
+Cardiac status stabilising","Respiratory paralysis
+(IMS — can re-occur after
+seemingly recovered);
+Requires ventilator",Mostly resolved,"IMS affects proximal limbs,
+neck flexors, cranial nerves;
+No miosis at this stage;
+Organophosphate-induced
+delayed neuropathy (OPIDN)
+possible weeks later",None at this stage,"Ingestion (prior);
+Ongoing systemic exposure","Blood (RBC AChE — recovery
+monitor); Urine (metabolites
+still detectable);
+EMG (nerve conduction)","PMC 1675999;
+Neurological syndromes OP
+ResearchGate 2001"
+T02,"Aluminium Phosphide
+(Celphos, Alphos, Quickphos — tablets/pellets)",Pesticide,Phase 1 — Early (0–30 min),"Anxiety; Restlessness;
+Headache; Dizziness","Normal or mild
+hypotension begins","Mild dyspnoea;
+Chest discomfort","Nausea; Vomiting begins;
+Epigastric burning;
+Abdominal pain","Garlic/fish odour strongly
+present at this phase","GARLIC / DECAYING FISH odour
+(phosphine + diphosphines;
+OFTEN STRONGLY PRESENT —
+practically diagnostic)","Ingestion (tablet/pellet — suicidal);
+Inhalation (phosphine gas released)","Gastric lavage (CRITICAL — early);
+Blood (phosphine)
+Silver nitrate paper test
+at bedside","PMC 3555759;
+PMC 4961899;
+Springer Egypt J Int Med"
+T02,"Aluminium Phosphide
+(Celphos, Alphos, Quickphos — tablets/pellets)",Pesticide,Phase 2 — Acute (30 min–4 hrs),"Severe headache;
+Confusion; Agitation;
+Restlessness worsening","SEVERE HYPOTENSION;
+Cardiac arrhythmias
+(multiple types);
+Sinus tachycardia ? bradycardia","Pulmonary oedema developing;
+Dyspnoea; Cough;
+Respiratory distress","Profuse vomiting;
+Abdominal pain;
+Corrosive injury to GI mucosa","Metabolic acidosis (severe);
+Mg2+ falls (hypomagnesaemia);
+Lactic acidosis;
+Diaphoresis","GARLIC / FISH odour persists
+strongly in breath and
+gastric contents",Ingestion (tablet),"Gastric lavage;
+Blood (ABG — metabolic acidosis);
+Blood phosphine;
+Serum Mg2+;
+ECG monitoring","PMC 3555759;
+Springer Egypt J Int Med;
+Bihar viscera study 2020"
+T02,"Aluminium Phosphide
+(Celphos, Alphos, Quickphos — tablets/pellets)",Pesticide,Phase 3 — Severe/Terminal (4–24 hrs),"Coma;
+Seizures (if hypoxia);
+Unresponsive","Cardiovascular collapse;
+Refractory hypotension;
+Multiple ECG changes
+(ST changes, QTc widening);
+Cardiac arrest","Pulmonary oedema fully
+established;
+Respiratory failure;
+Cyanosis","Haematemesis (GI bleeding);
+Blood-stained vomit;
+Ileus","Multiorgan failure;
+DIC (coagulation failure);
+Acute kidney injury;
+Hepatic dysfunction","Odour may be diminishing
+as phosphine depletes;
+still detectable in
+gastric contents",Ingestion,"Post-mortem:
+Lung tissue (phosphine);
+Liver; Gastric contents;
+Blood phosphine;
+Histopathology","PMC 4961899;
+PMC 3555759"
+T03,"Arsenic
+(Arsenic trioxide, Sodium arsenite — acute/chronic)",Heavy Metal,"Phase 1 — Acute Early (0–2 hrs, acute ingestion)","Headache; Anxiety;
+No major CNS signs yet","Normal or mildly
+abnormal",No significant resp signs,"DOMINANT at this phase:
+Violent vomiting;
+Severe abdominal colic;
+Rice-water diarrhoea
+(classic — resembles cholera)","Garlic breath (acute);
+Metallic taste;
+Burning sensation
+in throat/oesophagus","GARLIC / ONION odour
+(acute ingestion;
+OPTIONAL — may be faint)","Ingestion (acute — homicidal/
+suicidal); Inhalation (industrial)","Gastric lavage contents;
+Urine (arsenic — acute);
+Blood","NYCOCME Reinsch SOP;
+Arsenic forensic toxicology
+literature"
+T03,"Arsenic
+(Arsenic trioxide, Sodium arsenite — acute/chronic)",Heavy Metal,Phase 2 — Acute Established (2–24 hrs),"Encephalopathy begins;
+Confusion; Delirium;
+Seizures (severe cases);
+Headache worsening","Hypotension;
+Cardiac arrhythmias;
+QTc prolongation","Respiratory depression
+(severe poisoning)","Haemorrhagic gastroenteritis;
+Blood-stained rice-water
+diarrhoea; Dehydration","Peripheral neuropathy begins;
+Muscle weakness;
+Acute renal failure;
+Haemolysis","Garlic odour in breath
+and gastric contents",Ingestion (acute),"Blood (arsenic level);
+Urine (inorganic arsenic);
+Viscera if fatal;
+Gastric lavage","NYCOCME Reinsch SOP;
+Arsenic acute tox literature"
+T03,"Arsenic
+(Arsenic trioxide, Sodium arsenite — acute/chronic)",Heavy Metal,Phase 3 — Chronic (weeks–months of repeated exposure),"Peripheral neuropathy
+(stocking-glove pattern);
+Encephalopathy;
+Memory impairment;
+Behavioural changes","Pericarditis (rare);
+Cardiac arrhythmia","No significant acute
+respiratory signs","Abdominal pain;
+Nausea (recurrent);
+Anorexia; Weight loss","MEES' LINES on nails
+(transverse white bands;
+1 line = 1 episode);
+Raindrop pigmentation on skin;
+Hyperpigmentation;
+Keratosis (palms/soles);
+Alopecia","May be absent in chronic;
+or faint garlic odour
+on body/nails","Ingestion (chronic —
+repeatedly over time;
+homicidal pattern)","HAIR (GOLD — 1 cm = 1 month);
+Nails; Urine;
+Blood (less useful chronic)","NYCOCME Reinsch SOP;
+Hair arsenic forensic
+literature"
+T04,"Mercury
+(Mercuric chloride — inorganic; Methyl mercury — organic)",Heavy Metal,"Phase 1 — Acute (0–2 hrs, inorganic ingestion)","Headache; Irritability;
+No major CNS at this phase",Normal,"Chemical pneumonitis
+if vapour inhaled;
+otherwise minimal","Metallic taste; Nausea;
+Vomiting; Abdominal pain;
+Corrosive mouth/throat burns","Excessive salivation
+(ptyalism); Burning
+throat; Metallic taste
+(hallmark early sign)","Metallic taste (subjective;
+not external odour;
+NO characteristic external odour)","Ingestion (inorganic — HgCl2);
+Inhalation (vapour — Hg0);
+Dermal (organic methyl mercury)","Gastric lavage contents;
+Blood (mercury level);
+Urine","NYCOCME Reinsch SOP;
+Mercury forensic tox"
+T04,"Mercury
+(Mercuric chloride — inorganic; Methyl mercury — organic)",Heavy Metal,Phase 2 — Acute Established (2–24 hrs),"CNS effects begin:
+Confusion; Tremors;
+Headache worsening;
+Anxiety","Hypertension;
+Tachycardia","Pulmonary oedema
+(vapour inhalation);
+Chemical pneumonitis","Haemorrhagic colitis;
+Profuse bloody diarrhoea;
+Severe abdominal pain","Oliguria beginning;
+Renal tubular damage;
+Proteinuria;
+Acute kidney failure","No characteristic external
+odour (mercury has none)",Ingestion/Inhalation,"Blood (Hg level);
+Urine (mercury excretion);
+Renal function tests","NYCOCME Reinsch SOP;
+Mercury toxicology"
+T04,"Mercury
+(Mercuric chloride — inorganic; Methyl mercury — organic)",Heavy Metal,"Phase 3 — Chronic (weeks–months, methyl mercury / repeated exposure)","ERETHISM (hallmark chronic Hg):
+Irritability; Shyness;
+Timidity; Memory loss;
+Insomnia; Depression;
+Ataxia; Tremors (intentional)",Hypertension,No significant resp signs,"Anorexia; Weight loss;
+Nausea (mild)","ACRODYNIA (pink disease)
+in children:
+Pink painful extremities;
+Swollen hands/feet;
+Hypertension;
+Diaphoresis;
+Tachycardia in children",No external odour,"Ingestion/Inhalation/
+Dermal (organic mercury)
+— chronic exposure","Hair (organic mercury;
+chronic exposure);
+Urine (inorganic chronic);
+Blood;
+Nails","NYCOCME Reinsch SOP;
+Methyl mercury
+Minamata literature"
+T05,"Morphine / Heroin / Opioids
+(Opium alkaloids — morphine, codeine, heroin)",Alkaloid/Drug,"Phase 1 — Early (0–30 min, IV/IM route; or 30–90 min oral)","Euphoria (initial);
+Analgesia; Drowsiness;
+Miosis begins","Mild bradycardia;
+Mild hypotension;
+Peripheral vasodilation","Mild respiratory rate
+reduction","Nausea; Vomiting
+(early — common);
+Decreased bowel
+sounds","Itching/flushing
+(histamine release);
+Warmth; Drowsiness","NO characteristic odour
+(opium itself has earthy
+smell — usually not
+present in processed forms)","IV injection (heroin — fastest;
+7–8 sec onset);
+Ingestion (morphine oral;
+30–90 min);
+Inhalation (smoking)","Blood (morphine level);
+Urine (immunoassay screen);
+Gastric lavage (oral)","IJFCM Narcotics 2022;
+Austin J Forensic Sci 2018;
+O'Neal FSI 2000"
+T05,"Morphine / Heroin / Opioids
+(Opium alkaloids — morphine, codeine, heroin)",Alkaloid/Drug,Phase 2 — Acute (30 min–2 hrs),"CLASSIC TRIAD:
+1. Miosis (pinpoint — hallmark)
+2. Decreased consciousness
+   (stupor ? coma)
+3. Respiratory depression;
+Seizures rare;
+Hyporeflexia","Bradycardia;
+Hypotension;
+Peripheral vasodilation;
+Cool clammy skin","RESPIRATORY DEPRESSION
+(primary cause of death);
+Slow rate <8/min;
+Shallow; Irregular;
+Cyanosis","Vomiting (aspiration risk);
+Decreased bowel motility;
+Constipation","Hypothermia;
+Pale/cyanosed skin;
+Flaccid muscles;
+Needle track marks (IV);
+Naloxone reverses all signs",NO characteristic odour,"IV injection / Ingestion /
+Inhalation","Blood (morphine/6-MAM);
+Urine (immunoassay);
+Gastric lavage (oral route)","IJFCM Narcotics 2022;
+O'Neal FSI 2000;
+Austin J Forensic Sci 2018"
+T05,"Morphine / Heroin / Opioids
+(Opium alkaloids — morphine, codeine, heroin)",Alkaloid/Drug,Phase 3 — Severe/Fatal (>2 hrs untreated),"Deep coma;
+Absent reflexes;
+Brain death (anoxia)","Circulatory collapse;
+Cardiac arrest (hypoxia)","Apnoea;
+Respiratory arrest;
+Aspiration pneumonia",Ileus; Constipation,"Hypoxic brain injury;
+Rhabdomyolysis;
+Compartment syndrome
+(prolonged immobility)",NO characteristic odour,IV injection / Ingestion,"Post-mortem blood
+(femoral — avoid cardiac);
+Vitreous humour;
+Hair (chronic use history);
+Liver","IJFCM Narcotics 2022;
+Opioid post-mortem
+forensic literature"
+T06,"Strychnine
+(Nux vomica — plant alkaloid)",Alkaloid/Drug,Phase 1 — Prodrome (0–15 min),"Apprehension; Restlessness;
+Hyperacusis (sensitivity
+to sounds/stimuli);
+Stiffness begins",Tachycardia; Hypertension,Normal,"Bitter taste; Nausea;
+Vomiting (early)","Heightened sensory
+sensitivity to light,
+noise, touch;
+Jaw stiffness","INTENSELY BITTER taste
+(not external odour;
+subjective by victim;
+NO external odour)","Ingestion (bitter tablet/
+powder);
+Rarely inhalation","Gastric lavage contents
+(CRITICAL — early);
+Urine;
+Blood","Forensicfield.blog;
+Strychnine toxicology"
+T06,"Strychnine
+(Nux vomica — plant alkaloid)",Alkaloid/Drug,Phase 2 — Acute Spasms (15–60 min),"OPISTHOTONOS (arched back);
+GENERALISED TONIC
+CONVULSIONS (hallmark);
+PATIENT FULLY CONSCIOUS
+DURING SPASMS;
+Risus sardonicus
+(fixed grin — facial spasm);
+Hyperreflexia","Hypertension severe;
+Tachycardia;
+Risk of cardiac failure
+from spasm effort","Respiratory muscle
+spasm ? Apnoea
+during convulsions;
+Cyanosis","Vomiting risk
+(aspiration danger);
+Abdominal muscle spasm","Spasms triggered by
+any sensory stimulus
+(light, sound, touch);
+Muscle hyperthermia;
+Rhabdomyolysis;
+Profuse sweating",NO external odour,Ingestion,"Blood (strychnine level);
+Urine;
+Gastric lavage","Forensicfield.blog;
+Mandelin specificity
+literature"
+T06,"Strychnine
+(Nux vomica — plant alkaloid)",Alkaloid/Drug,Phase 3 — Late/Fatal (>1 hr repeated spasms),"Death from exhaustion
+or asphyxia;
+Continuous spasms;
+No recovery between","Cardiac failure
+(exertion + hypoxia);
+Arrhythmia","Respiratory arrest
+(from muscle rigidity);
+Terminal cyanosis",Ileus,"Hyperthermia (40°C+);
+Severe lactic acidosis;
+Renal failure (myoglobin);
+DIC",NO external odour,Ingestion,"Post-mortem blood;
+Urine;
+Viscera (liver, kidney);
+Gastric contents","Strychnine forensic
+toxicology literature;
+Forensicfield.blog"
+T07,"Cyanide
+(KCN, NaCN, HCN gas, Amygdalin/bitter almonds)",Volatile/Gas,Phase 1 — Hyper-acute (0–5 min — gas; 0–30 min — ingested salts),"Headache; Dizziness;
+Anxiety; Confusion;
+Rapid loss of consciousness
+(HCN gas: seconds–2 min)","Hypertension (early);
+Tachycardia (early)","Hyperpnoea (rapid);
+Dyspnoea","Nausea; Vomiting
+(if ingested salts)","Flushed skin (early;
+histotoxic hypoxia);
+Lactic acidosis building","BITTER ALMOND odour
+(HCN — classic;
+~40–60% of population
+can detect it;
+OPTIONAL — genetic)","Inhalation (HCN gas — fastest);
+Ingestion (KCN/NaCN salts);
+Amygdalin (seeds — slower onset)","Gastric lavage (ingestion);
+Blood (whole blood — cyanide
+unstable in serum)","Forensicfield.blog;
+Cyanide forensic tox"
+T07,"Cyanide
+(KCN, NaCN, HCN gas, Amygdalin/bitter almonds)",Volatile/Gas,Phase 2 — Acute Collapse (5–30 min),"Seizures; Coma;
+Complete unconsciousness;
+Fixed dilated pupils (late)","BRIGHT RED VENOUS BLOOD
+(arterialised — hallmark);
+Cardiovascular collapse;
+Bradycardia ? arrest;
+Hypotension","Respiratory failure;
+Irregular breathing;
+Apnoea","Hypersalivation
+(ingestion)","Lactic acidosis (severe);
+High anion gap;
+Bright red venous blood
+(venous pO2 high —
+oxygen not utilised);
+Cyanosis ABSENT
+(paradox — key sign)","Bitter almond odour
+persists in breath,
+gastric contents,
+post-mortem tissues",Inhalation / Ingestion,"Whole blood (cyanide;
+NOT serum);
+Post-mortem blood;
+Gastric contents;
+Lung (if inhaled)","Forensicfield.blog;
+Systematic Tox Springer;
+Cyanide forensic lit"
+T08,"Carbon Monoxide (CO)
+(Vehicle exhaust, generators, fires, coal stoves)",Volatile/Gas,Phase 1 — Mild (COHb 10–20%),"Headache (frontal;
+hallmark early sign);
+Dizziness; Confusion;
+Nausea","Mild tachycardia;
+Vasodilation",Dyspnoea on exertion,Nausea; Vomiting,"Fatigue; Weakness;
+Visual disturbances;
+Cherry-red skin
+(may appear)","NO odour — CO is
+COLOURLESS AND ODOURLESS
+(NOT detectable by smell;
+always absent)","Inhalation ONLY
+(vehicle exhaust;
+wood-burning fires;
+generators; coal stoves)","Blood (COHb% by co-oximetry;
+urgent)","Systematic Tox Springer;
+Forensic COHb literature"
+T08,"Carbon Monoxide (CO)
+(Vehicle exhaust, generators, fires, coal stoves)",Volatile/Gas,Phase 2 — Moderate (COHb 20–40%),"Severe headache;
+Confusion; Disorientation;
+Impaired judgement;
+Ataxia; Syncope","Tachycardia;
+Arrhythmia;
+Chest pain (angina)","Dyspnoea at rest;
+Respiratory rate rises","Nausea; Vomiting
+(worsening)","Weakness; Collapse;
+Cherry-red skin more
+apparent;
+Visual disturbances","NO odour — absolutely
+none at any stage",Inhalation,"Blood (COHb% — URGENT;
+co-oximetry only;
+normal blood gas pO2
+can be falsely normal)","Forensic COHb literature;
+CO poisoning clinical data"
+T08,"Carbon Monoxide (CO)
+(Vehicle exhaust, generators, fires, coal stoves)",Volatile/Gas,Phase 3 — Severe/Fatal (COHb >50%),"Coma; Seizures;
+Brain damage;
+Unresponsive","Cardiovascular collapse;
+Cardiac arrest;
+Bradycardia","Respiratory arrest;
+Apnoea",Aspiration risk,"CHERRY-RED post-mortem
+lividity (hallmark);
+Bright red blood
+(COHb — visually apparent
+at autopsy);
+Hypoxic brain injury;
+Rhabdomyolysis",NO odour at any stage,Inhalation,"Post-mortem blood
+(COHb preserved post-mortem);
+Vitreous humour;
+Lung tissue;
+Brain","Forensic COHb literature;
+Post-mortem CO analysis"
+T09,"Ethanol / Methanol
+(Illicit liquor — hooch tragedies India)",Volatile/Gas,"Phase 1 — Early Ethanol (BAC 0.05–0.10%, 0–1 hr)","Euphoria; Disinhibition;
+Mild incoordination;
+Slurred speech beginning","Vasodilation;
+Flushing; Mild
+tachycardia",Normal,Nausea (mild),"Impaired judgment;
+Decreased reaction time;
+Emotional lability","SWEET / ALCOHOLIC odour
+(ethanol on breath;
+OFTEN PRESENT — easy to detect;
+OPTIONAL parameter)",Ingestion (oral),"Blood (BAC — ethanol);
+Breath (breathalyser)","Bihar viscera study;
+GC-HS FSL SOP;
+Forensic ethanol lit"
+T09,"Ethanol / Methanol
+(Illicit liquor — hooch tragedies India)",Volatile/Gas,Phase 2 — Acute Ethanol / Methanol latent (BAC >0.20% / 2–12 hrs methanol),"Ataxia (gross);
+Confusion; Stupor;
+Nystagmus;
+Dysarthria;
+For METHANOL: visual
+disturbances begin
+(blurring, altered colour
+vision)","Hypotension;
+Tachycardia;
+Vasodilation","Respiratory depression
+(ethanol, high BAC);
+Aspiration risk","Vomiting (major risk
+for aspiration);
+Gastritis","Hypothermia;
+Hypoglycaemia;
+For methanol: no specific
+symptoms yet but
+formate accumulating","STRONG ALCOHOLIC odour
+(ethanol);
+Methanol: minimal odour
+— cannot be detected
+by smell reliably",Ingestion,"Blood (BAC; methanol level);
+Urine (EtG if recent);
+Gastric lavage","Bihar viscera study;
+GC-HS FSL SOP"
+T09,"Ethanol / Methanol
+(Illicit liquor — hooch tragedies India)",Volatile/Gas,Phase 3 — Methanol toxic phase (12–48 hrs post-ingestion),"VISUAL FAILURE
+(hallmark methanol):
+Blurred vision ?
+Snowfield vision ?
+BLINDNESS;
+Seizures (severe);
+Coma","Cardiovascular collapse
+(severe acidosis)","Kussmaul breathing
+(deep, rapid —
+severe metabolic acidosis);
+Respiratory failure","Nausea; Vomiting;
+Abdominal pain","SEVERE METABOLIC ACIDOSIS
+(high anion gap);
+Formate accumulation;
+Optic nerve oedema;
+Retinal toxicity;
+Blindness permanent
+if untreated","May have mild alcoholic
+odour; Methanol itself
+has faint odour
+— unreliable detection",Ingestion,"Blood (methanol level;
+formate level;
+ABG — acidosis);
+Urine;
+Vitreous humour
+(post-mortem)","Bihar viscera study;
+Methanol toxicology lit;
+Forensic ethanol"
+T10,"Paraphenylenediamine (PPD)
+(Kala Pathar — hair dye ingestion)",Dye/Industrial,Phase 1 — Early (0–4 hrs post-ingestion),None significant,Normal,"Mild respiratory symptoms;
+Throat discomfort","Nausea; Vomiting;
+Oropharyngeal burning","Local oropharyngeal
+irritation;
+Mild cervical
+swelling begins","NO characteristic odour
+(hair dye may have
+chemical/ammonia smell
+if fresh — non-specific;
+OPTIONAL/unreliable)","Ingestion (suicidal —
+hair dye emulsion;
+80 mL bowlful typical);
+Dermal (topical allergy —
+less severe)","Gastric lavage contents
+(CRITICAL — early);
+Blood (baseline renal);
+Urine (baseline)","PubMed 23563473;
+PMC 3634302;
+StatPearls NBK606092"
+T10,"Paraphenylenediamine (PPD)
+(Kala Pathar — hair dye ingestion)",Dye/Industrial,Phase 2 — Acute (4–24 hrs) — HALLMARK PHASE,None significant,"Myocarditis developing;
+Cardiac conduction
+abnormalities;
+Fatal arrhythmia risk","UPPER AIRWAY OBSTRUCTION
+(laryngeal/cervical oedema);
+Stridor;
+Dyspnoea;
+Emergency tracheostomy
+may be required","Dysphagia;
+Drooling (oedema);
+Nausea persisting","CERVICOFACIAL OEDEMA
+(HALLMARK — massive
+swelling of neck/face);
+Rhabdomyolysis begins;
+Dark/BROWN URINE
+(myoglobinuria — hallmark);
+Elevated CK",NO characteristic odour,Ingestion,"Urine (BROWN — myoglobinuria;
+naked-eye diagnostic);
+Blood (CK, creatinine,
+cardiac enzymes);
+ECG","PubMed 23563473;
+PMC 3510919;
+PMC 3634302;
+PubMed 26056768"
+T10,"Paraphenylenediamine (PPD)
+(Kala Pathar — hair dye ingestion)",Dye/Industrial,Phase 3 — Late (24–96 hrs) — Organ Failure,None specific CNS,"Myocarditis established;
+Arrhythmia;
+Cardiac failure risk","Respiratory failure
+(if upper airway not
+secured);
+Pulmonary oedema","Hepatic necrosis;
+Liver failure signs","ACUTE RENAL FAILURE
+(myoglobin casts in
+renal tubules — ATN);
+Oliguria/Anuria;
+Elevated creatinine;
+Dialysis may be needed;
+Mortality 12–42%",NO characteristic odour,Ingestion,"Blood (creatinine;
+BUN; CK; LFTs;
+PPD level by HPLC);
+Urine;
+Viscera (post-mortem:
+renal histopath)","PubMed 26056768;
+PMC 3634302;
+StatPearls NBK606092"
+T11,"Paraquat
+(Gramoxone herbicide — 20% concentrate)",Pesticide,Phase 1 — Acute GI (0–24 hrs),None significant,Mild hypotension,"Mild dyspnoea;
+not severe yet","SEVERE CORROSIVE
+GI BURNS (hallmark early);
+Oral/oesophageal burns;
+Bloodstained vomit;
+Dysphagia; Nausea;
+Diarrhoea","Oropharyngeal ulcers;
+Corrosive injury;
+Oral pain;
+Dysphagia","BLUE-GREEN liquid
+(commercial Gramoxone —
+visual sign at SCENE;
+not an odour);
+NO characteristic odour","Ingestion (suicidal —
+diluted Gramoxone;
+even small amounts fatal);
+Dermal (occupational;
+less common)","Urine (dithionite test —
+bedside SPECIFIC;
+blue = positive);
+Blood plasma;
+Gastric lavage","PMC 8296580;
+Paraquat clinical lit;
+Proudfoot nomogram"
+T11,"Paraquat
+(Gramoxone herbicide — 20% concentrate)",Pesticide,Phase 2 — Systemic (24–72 hrs),"Confusion (hypoxia);
+Restlessness","Hypotension worsening;
+Cardiovascular compromise","PULMONARY FIBROSIS
+BEGINS (hallmark);
+Progressive dyspnoea;
+Increasing O2 requirement;
+NOTE: supplemental O2
+worsens lung injury","Persistent dysphagia;
+Oropharyngeal ulcers
+progress","Acute renal failure;
+Hepatic dysfunction;
+Elevated liver enzymes;
+Raised creatinine",NO characteristic odour,Ingestion,"Blood (paraquat level;
+Proudfoot nomogram
+for prognosis);
+Urine (dithionite);
+Renal function","PMC 8296580;
+Paraquat dithionite
+test literature"
+T11,"Paraquat
+(Gramoxone herbicide — 20% concentrate)",Pesticide,Phase 3 — Late Fibrosis (3–14 days) — Highly lethal,"Confusion; Coma
+(hypoxia)","Multi-organ failure;
+Cardiovascular collapse","PROGRESSIVE PULMONARY
+FIBROSIS FULLY ESTABLISHED;
+Respiratory failure;
+Ventilator-dependent;
+High FiO2 worsens;
+Death from hypoxic
+respiratory failure","Liver failure;
+Jaundice","Multiorgan failure;
+Acute renal failure;
+Hepatic failure;
+DIC;
+Death (high mortality
+even with treatment)",NO characteristic odour,Ingestion,"Lung tissue (post-mortem;
+fibrosis on histopath);
+Blood (paraquat);
+Viscera","PMC 8296580;
+Paraquat forensic tox
+literature"
+T12,"Carbolic Acid / Phenol
+(Lysol, Dettol — household corrosive poisoning)",Corrosive,Phase 1 — Immediate (0–30 min),"CNS STIMULATION:
+Excitement; Tremors;
+Headache;
+Seizures (early — high dose)","Hypertension (early;
+CNS stimulation phase);
+Tachycardia","Mild respiratory
+irritation;
+Chest tightness","CORROSIVE BURNS:
+White coagulation of
+mucous membranes;
+Burning pain in mouth;
+Nausea; Vomiting;
+White/grey discolouration
+of gastric mucosa","Pallor of mucous
+membranes;
+Local coagulative necrosis;
+Skin burns (dermal)","STRONG CARBOLIC /
+ANTISEPTIC ODOUR
+(unmistakable Dettol/
+Lysol smell;
+OFTEN STRONGLY PRESENT;
+OPTIONAL parameter)","Ingestion;
+Dermal absorption
+(significant percutaneous);
+Inhalation (vapour)","Gastric lavage contents
+(CRITICAL — early);
+Blood;
+Urine (phenol metabolites
+early)","Bihar viscera study;
+Forensicfield FeCl3;
+Phenol toxicology"
+T12,"Carbolic Acid / Phenol
+(Lysol, Dettol — household corrosive poisoning)",Corrosive,Phase 2 — CNS Depression (30 min–4 hrs),"CNS DEPRESSION (follows
+stimulation):
+Confusion; Drowsiness;
+Stupor; COMA;
+Hyporeflexia;
+Seizures ? CNS depression
+transition","Hypotension
+(phase reversal from
+hypertension);
+Arrhythmia;
+Cardiac depression","Respiratory depression;
+Chemical pneumonitis
+(inhalation);
+Bronchospasm","Haematemesis;
+GI perforation (severe);
+Continued corrosive injury","Dark brown/black urine
+(phenol metabolites;
+parahydroquinone);
+Skin: grey-white
+coagulation necrosis;
+Dehydration","Carbolic odour persists
+in breath and gastric
+contents",Ingestion/Dermal/Inhalation,"Urine (phenol metabolites;
+dark coloured —
+visual clue);
+Blood;
+Gastric lavage","Bihar viscera study;
+Phenol tox literature"
+T12,"Carbolic Acid / Phenol
+(Lysol, Dettol — household corrosive poisoning)",Corrosive,Phase 3 — Organ Failure (>4 hrs),"Deep coma;
+Brain injury (hypoxia/
+toxic)","Cardiovascular collapse;
+Cardiac failure","Respiratory failure;
+Aspiration pneumonia","GI perforation risk;
+Hepatic necrosis","Acute renal failure;
+Methaemoglobinaemia
+(carbolic acid oxidises
+Hb);
+Cyanosis;
+Acidosis","Carbolic odour may
+persist in post-mortem
+tissues",Ingestion,"Viscera (post-mortem);
+Urine (phenol);
+Blood (metHb level;
+GC-MS)","Bihar viscera study;
+Phenol forensic tox"
+T13,"Barbiturates
+(Phenobarbitone, Amylobarbitone — sedative overdose)",Alkaloid/Drug,Phase 1 — Mild Sedation (1–3 hrs post-ingestion),"Drowsiness; Slurred
+speech; Ataxia;
+Nystagmus;
+Impaired judgment","Mild hypotension;
+Mild bradycardia","Mild respiratory
+rate reduction","Nausea; Vomiting
+(early)","Hypothermia (mild);
+Reduced reflexes","NO characteristic odour
+(tablets are odourless)","Ingestion (overdose;
+sedative abuse;
+often with alcohol)","Blood (barbiturate level;
+serum);
+Gastric lavage;
+Urine (immunoassay)","O'Neal FSI 2000;
+Forensicfield.blog;
+Barbiturate clinical tox"
+T13,"Barbiturates
+(Phenobarbitone, Amylobarbitone — sedative overdose)",Alkaloid/Drug,Phase 2 — Moderate–Severe (3–12 hrs),"DEEP COMA;
+Absent reflexes;
+Fixed pupils (midbrain
+pressure);
+Loss of corneal reflex","Hypotension (significant);
+Bradycardia;
+CV depression","RESPIRATORY DEPRESSION
+(dose-dependent;
+Primary cause of death);
+Cheyne-Stokes
+breathing;
+Apnoea","Vomiting; Paralytic
+ileus; Aspiration risk","Hypothermia (profound;
+hallmark severe barb
+poisoning);
+Bullous skin lesions
+(barb blisters —
+classic sign);
+Flaccid paralysis",NO characteristic odour,Ingestion,"Blood (serial barbiturate
+levels);
+Urine;
+Gastric lavage","O'Neal FSI 2000;
+Barbiturate clinical tox"
+T13,"Barbiturates
+(Phenobarbitone, Amylobarbitone — sedative overdose)",Alkaloid/Drug,"Phase 3 — Severe/Fatal (>12 hrs, high dose)","Brain death;
+No response;
+Isoelectric EEG","Cardiovascular collapse;
+Cardiac arrest;
+Shock","Respiratory arrest;
+Apnoea;
+Aspiration pneumonia",None,"Profound hypothermia;
+Oliguria;
+Renal failure;
+Aspiration pneumonia;
+Barb blisters persist",NO characteristic odour,Ingestion,"Post-mortem blood
+(femoral vein);
+Brain tissue;
+Liver;
+Vitreous humour;
+Gastric contents","O'Neal FSI 2000;
+Barbiturate post-mortem
+literature"
+T14,"Organochlorine Pesticides
+(DDT, Endosulfan, Aldrin, Dieldrin, Lindane)",Pesticide,"Phase 1 — Early (0–4 hrs, acute ingestion)","Paraesthesia (tingling
+of tongue/lips — early);
+Headache; Dizziness;
+Restlessness;
+Hyperesthaesia","Hypertension
+(catecholamine
+sensitisation);
+Tachycardia","Mild dyspnoea;
+Chest tightness","Nausea; Vomiting;
+Abdominal pain;
+Diarrhoea","Fatigue; Tremors
+(fine, begins early);
+Anorexia;
+Petroleum solvent odour
+from formulation","PETROLEUM / SOLVENT odour
+(from the formulation
+carrier — NOT the OCP
+itself;
+OPTIONAL/UNRELIABLE)","Ingestion;
+Dermal absorption;
+Inhalation","Blood (OCP levels;
+serum — fat-soluble);
+Gastric lavage","Fujiwara test lit;
+WHO OCP toxicology;
+GC-ECD forensic data"
+T14,"Organochlorine Pesticides
+(DDT, Endosulfan, Aldrin, Dieldrin, Lindane)",Pesticide,Phase 2 — Acute Toxic (4–12 hrs),"GENERALISED SEIZURES
+(HALLMARK — key
+distinction from OP;
+no miosis!);
+Tremors (coarse);
+Myoclonic jerks;
+Hyperactivity;
+Confusion","Hypertension severe;
+Cardiac arrhythmia
+(catecholamine sensitisation;
+arrhythmia if adrenaline
+given — DANGEROUS);
+Ventricular fibrillation","Pulmonary oedema
+(severe cases)","Vomiting persisting;
+Abdominal pain","Seizures WITHOUT miosis
+(KEY — differentiates
+from OP poisoning);
+Hyperthermia;
+Rhabdomyolysis;
+Lactic acidosis","Petroleum odour
+(if formulation present
+in gastric contents)",Ingestion/Dermal,"Blood (OCP serum levels);
+Urine;
+Gastric lavage;
+Fat biopsy (chronic)","Fujiwara test lit;
+WHO OCP toxicology;
+GC-ECD forensic data"
+T14,"Organochlorine Pesticides
+(DDT, Endosulfan, Aldrin, Dieldrin, Lindane)",Pesticide,"Phase 3 — Chronic (months–years, repeated low-dose exposure)","Peripheral neuropathy;
+Cognitive impairment;
+Memory issues;
+Depression",No significant acute CVS,No significant resp,"Anorexia; Nausea;
+Weight loss","Endocrine disruption
+(oestrogenic effects);
+Hepatic enzyme induction;
+Bioaccumulation in
+adipose tissue;
+Reproductive toxicity;
+Carcinogenicity (long-term)","NO characteristic odour
+at chronic low levels","Dermal/Ingestion
+(chronic occupational
+or food contamination)","Adipose tissue biopsy
+(GOLD for chronic OCP);
+Blood (serum lipids);
+Breast milk;
+Hair","WHO OCP toxicology;
+Bioaccumulation
+forensic literature"
+T15,"Zinc Phosphide
+(Ratol — rural rodenticide, grey/black pellets)",Rodenticide/Other,Phase 1 — Early (0–1 hr),"Headache; Dizziness;
+Restlessness;
+Anxiety","Normal or mild
+hypotension","Cough; Dyspnoea
+(mild)","NAUSEA; VOMITING
+(early and prominent);
+Abdominal pain;
+Epigastric burning","Garlic/phosphine odour
+strongly present;
+Diaphoresis","GARLIC / PHOSPHINE odour
+(similar to AlP;
+OFTEN PRESENT —
+practically diagnostic;
+OPTIONAL parameter)","Ingestion (tablet/pellet —
+accidental or suicidal);
+Inhalation (phosphine
+gas released in stomach
+by gastric acid)","Gastric lavage (CRITICAL);
+Blood (phosphine);
+Silver nitrate paper
+(bedside scene test)","ZnP rodenticide
+forensic literature;
+Phosphine tox data"
+T15,"Zinc Phosphide
+(Ratol — rural rodenticide, grey/black pellets)",Rodenticide/Other,Phase 2 — Acute (1–6 hrs),"Confusion; Agitation;
+Headache worsening;
+Seizures (hypoxia)","Hypotension;
+Cardiac arrhythmia;
+ECG changes;
+Bradycardia","Pulmonary oedema;
+Dyspnoea severe;
+Cough;
+Respiratory distress","Profuse vomiting;
+Abdominal pain;
+Corrosive GI effects;
+Diarrhoea","Metabolic acidosis;
+Lactic acidosis;
+Liver dysfunction;
+Renal injury begins;
+Diaphoresis","Garlic/phosphine odour
+persisting in breath
+and gastric contents",Ingestion,"Blood (phosphine;
+ABG — acidosis;
+ICP-MS for zinc);
+Gastric lavage;
+Liver enzymes;
+Renal function","ZnP forensic lit;
+Phosphine tox;
+Ratol India cases"
+T15,"Zinc Phosphide
+(Ratol — rural rodenticide, grey/black pellets)",Rodenticide/Other,Phase 3 — Severe/Fatal (6–24 hrs),"Coma;
+Unresponsive;
+Brain injury (hypoxia)","Cardiovascular collapse;
+Refractory hypotension;
+Cardiac arrest","Respiratory failure;
+Apnoea;
+Cyanosis;
+Pulmonary oedema
+full","GI haemorrhage;
+Liver failure signs","Multiorgan failure;
+Acute hepatic failure;
+Renal failure;
+DIC;
+Hypothermia;
+Zinc toxicity to liver","Odour diminishing
+as phosphine depletes;
+still in gastric contents",Ingestion,"Post-mortem:
+Gastric contents;
+Lung tissue;
+Liver;
+Kidney;
+Blood (zinc by AAS/ICP-MS)","ZnP forensic lit;
+Phosphine post-mortem
+analysis"
