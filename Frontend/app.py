@@ -2,11 +2,13 @@ import streamlit as st
 import joblib
 import os
 
+
 # ==========================
-# Load trained model safely
+# Load model
 # ==========================
 
 BASE_DIR = os.path.dirname(__file__)
+
 MODEL_PATH = os.path.join(
     BASE_DIR,
     "model",
@@ -15,146 +17,179 @@ MODEL_PATH = os.path.join(
 
 model = joblib.load(MODEL_PATH)
 
+
 # ==========================
-# Page config
+# Page
 # ==========================
 
 st.set_page_config(
-    page_title="Poison Detection",
+    page_title="Decision Support System - VishAI",
     layout="wide"
 )
 
-st.title(" Poison Detection System")
+st.title(" Decision Support System - VishAI")
 
 st.write(
-    "Enter forensic observations to detect probable toxic substances."
+"""
+AI assisted forensic toxicology
+decision support tool for probable
+poison identification.
+"""
 )
 
-# ==========================
-# P1 — Clinical Symptoms
-# ==========================
+# ====================================
+# INPUTS
+# ====================================
 
 cns = st.multiselect(
-    "CNS Symptoms",
-    [
-        "confusion",
-        "coma",
-        "delirium",
-        "anxiety",
-        "seizure",
-        "headache"
-    ]
+
+"CNS Symptoms",
+
+[
+"confusion",
+"coma",
+"delirium",
+"anxiety",
+"seizure",
+"headache"
+]
+
 )
+
 
 cvs = st.multiselect(
-    "CVS Symptoms",
-    [
-        "tachycardia",
-        "bradycardia",
-        "hypotension",
-        "cardiac arrest"
-    ]
+
+"CVS Symptoms",
+
+[
+"tachycardia",
+"bradycardia",
+"hypotension",
+"cardiac arrest"
+]
+
 )
+
 
 resp = st.multiselect(
-    "Respiratory Symptoms",
-    [
-        "dyspnoea",
-        "respiratory failure",
-        "tachypnoea",
-        "pulmonary edema"
-    ]
+
+"Respiratory Symptoms",
+
+[
+"dyspnoea",
+"tachypnoea",
+"respiratory failure",
+"pulmonary edema"
+]
+
 )
+
 
 gi = st.multiselect(
-    "GI Symptoms",
-    [
-        "vomiting",
-        "nausea",
-        "abdominal pain",
-        "diarrhea"
-    ]
+
+"GI Symptoms",
+
+[
+"vomiting",
+"nausea",
+"abdominal pain",
+"diarrhea"
+]
+
 )
+
+
 
 other = st.multiselect(
-    "Other/Systemic Symptoms",
-    [
-        "fever",
-        "cyanosis",
-        "burning sensation",
-        "renal failure"
-    ]
+
+"Other/Systemic Symptoms",
+
+[
+"fever",
+"cyanosis",
+"renal failure",
+"burning sensation"
+]
+
 )
 
-# ==========================
-# P2 — Odour
-# ==========================
+
 
 odour = st.selectbox(
-    "Odour",
-    [
-        "Unknown",
-        "None",
-        "Petroleum",
-        "Garlic",
-        "Sweet",
-        "Bitter Almond"
-    ]
+
+"Odour",
+
+[
+"Unknown",
+"Petroleum",
+"Garlic",
+"Sweet",
+"Bitter Almond",
+"None"
+]
+
 )
 
-# ==========================
-# P3 — Route
-# ==========================
+
 
 route = st.selectbox(
-    "Route of Exposure",
-    [
-        "Ingestion",
-        "Inhalation",
-        "Injection",
-        "Dermal",
-        "Unknown"
-    ]
+
+"Route of Exposure",
+
+[
+"Ingestion",
+"Inhalation",
+"Injection",
+"Dermal",
+"Unknown"
+]
+
 )
 
 
-# P4 — Timeline
 
+timeline = st.selectbox(
 
-timeline = st.radio(
-    "Symptom Onset Timeline",
-    [
-        "Rapid",
-        "Acute",
-        "Subacute",
-        "Delayed",
-        "Chronic"
-    ]
+"Timeline",
+
+[
+"Rapid",
+"Acute",
+"Subacute",
+"Delayed",
+"Chronic"
+]
+
 )
 
-
-# P5 — Sample Type
 
 
 sample = st.multiselect(
-    "Available Sample Type",
-    [
-        "Blood",
-        "Urine",
-        "Gastric Lavage",
-        "Hair",
-        "Nails",
-        "Viscera"
-    ]
+
+"Available Sample",
+
+[
+"Blood",
+"Urine",
+"Gastric Lavage",
+"Hair",
+"Nails",
+"Viscera"
+]
+
 )
 
 
-# Prediction
 
+# ====================================
+# PREDICT
+# ====================================
 
 if st.button(" Predict Toxic Substance"):
 
+
     symptoms = (
+
         " ".join(cns)
         + " "
         + " ".join(cvs)
@@ -166,28 +201,229 @@ if st.button(" Predict Toxic Substance"):
         + " ".join(other)
         + " "
         + odour
+
     )
+
 
     prediction = model.predict([symptoms])[0]
 
+
+    # ====================================
+    # Toxicology Knowledge Base
+    # ====================================
+
+    toxic_db = {
+
+        "Datura":{
+
+            "confidence":"HIGH",
+
+            "severity":"SEVERE",
+
+            "confirmatory":
+
+            "Urine alkaloid analysis\nGC-MS",
+
+            "sample":
+
+            "Blood / Gastric lavage"
+
+        },
+
+
+        "Snakebite":{
+
+            "confidence":"HIGH",
+
+            "severity":"CRITICAL",
+
+            "confirmatory":
+
+            "ELISA venom assay",
+
+            "sample":
+
+            "Blood"
+
+        },
+
+
+        "Copper":{
+
+            "confidence":"MODERATE",
+
+            "severity":"MODERATE",
+
+            "confirmatory":
+
+            "Serum copper estimation",
+
+            "sample":
+
+            "Blood"
+
+        },
+
+
+        "Kerosene":{
+
+            "confidence":"HIGH",
+
+            "severity":"SEVERE",
+
+            "confirmatory":
+
+            "Hydrocarbon toxicology",
+
+            "sample":
+
+            "Blood / Gastric"
+
+        }
+
+    }
+
+
+
+    matched = None
+
+
+    for toxin in toxic_db:
+
+        if toxin.lower() in str(prediction).lower():
+
+            matched = toxic_db[toxin]
+
+
+
     st.success(
-        f"Predicted Toxic Substance: {prediction}"
+
+        f"""
+Predicted Toxic Substance:
+
+{prediction}
+"""
     )
 
-    st.info(f"""
-Confidence Level: HIGH
 
-Route of Exposure:
+
+    if matched:
+
+
+        col1,col2,col3 = st.columns(3)
+
+
+        col1.metric(
+
+            "Confidence",
+
+            matched["confidence"]
+
+        )
+
+
+        col2.metric(
+
+            "Severity",
+
+            matched["severity"]
+
+        )
+
+
+        col3.metric(
+
+            "Timeline",
+
+            timeline
+
+        )
+
+
+
+        st.write("## Recommended Confirmatory Test")
+
+        st.info(
+
+            matched["confirmatory"]
+
+        )
+
+
+
+        st.write("## Best Sample")
+
+        st.success(
+
+            matched["sample"]
+
+        )
+
+
+
+    st.write("## Case Summary")
+
+
+    st.write(
+
+f"""
+
+Route:
+
 {route}
 
+
+
 Timeline:
+
 {timeline}
 
-Recommended Sample:
-{', '.join(sample)}
-""")
+
+
+Entered Symptoms:
+
+CNS → {cns}
+
+CVS → {cvs}
+
+Resp → {resp}
+
+GI → {gi}
+
+Other → {other}
+
+
+
+Odour:
+
+{odour}
+
+
+
+Available Sample:
+
+{sample}
+
+"""
+    )
+
+
 
     st.warning(
-        "This is a preliminary forensic decision-support output. "
-        "Confirmatory laboratory testing is required."
+
+"""
+This is a preliminary forensic
+decision-support output.
+
+Laboratory confirmation is required
+before medico-legal interpretation.
+"""
     )
+
+
+
+    st.caption(
+
+"Powered by VishAI Decision Support System"
+
+)
